@@ -37,7 +37,7 @@ public class VideoInfo {
 	/**
 	 * 上传分类
 	 */
-	private int categoryid;
+	private String categoryid;
 	
 	/**
 	 * 本次上传分配的metaurl
@@ -109,11 +109,11 @@ public class VideoInfo {
 		this.servicetype = servicetype;
 	}
 
-	public int getCategoryid() {
+	public String getCategoryid() {
 		return categoryid;
 	}
 
-	public void setCategoryid(int categoryid) {
+	public void setCategoryid(String categoryid) {
 		this.categoryid = categoryid;
 	}
 
